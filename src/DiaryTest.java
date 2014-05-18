@@ -35,12 +35,6 @@ public class DiaryTest extends JFrame {
 	JComboBox JBox_cal_month = new JComboBox(MONTH);
 	JButton JBcal_day[] = new JButton[42];
 
-	public static void main(String[] args) {
-
-		new DiaryTest();
-
-	}
-
 	DiaryTest() {
 		super("Diary");
 
