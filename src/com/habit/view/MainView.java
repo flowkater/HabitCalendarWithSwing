@@ -142,7 +142,7 @@ public class MainView extends JFrame {
 		JPanel JPBottom = new JPanel();
 		JPBottom.add(calendarTable());
 
-		// c.add(TopController(), BorderLayout.NORTH);
+		 c.add(TopController(), BorderLayout.NORTH);
 		c.add(JPBottom, BorderLayout.SOUTH);
 
 		Toolkit tk = Toolkit.getDefaultToolkit();
@@ -153,7 +153,7 @@ public class MainView extends JFrame {
 		setVisible(true);
 		setBackground(Color.white);
 
-		// refreshCalendar(currentMonth, currentYear);
+		 refreshCalendar(currentMonth, currentYear);
 	}
 
 	private void refreshCalendar(int month, int year) {
