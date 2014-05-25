@@ -5,10 +5,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Day {
-	int id;
-	List<DailyHabit> dailyHabits = new ArrayList<DailyHabit>();
-	String diary;
-	String date;
+	private int id;
+	private List<DailyHabit> dailyHabits = new ArrayList<DailyHabit>();
+	private String diary;
+	private String date;
 
 	public Day() {
 

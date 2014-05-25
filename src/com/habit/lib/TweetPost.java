@@ -25,5 +25,6 @@ public class TweetPost {
 		String message = "성공 습관 프로젝트: " + date + " 성공:" + success + "개, 실패:"
 				+ miss + "개";
 		Status status = twitter.updateStatus(message);
+		System.out.println(status);
 	}
 }

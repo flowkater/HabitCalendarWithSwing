@@ -78,14 +78,14 @@ public class DayCheckView extends JFrame {
 
 		jPCenter.setLayout(grid);
 
-		JList jList = new JList();
+		// JList jList = new JList();
 		// jList.setModel(arg0);
 
 		for (DailyHabit dailyHabit : dailyHabits) {
 			Habit habit = habitDAO.findByDailyHabit(dailyHabit);
-			System.out.println(habit.getName());
-			System.out.println(dailyHabit.getStatus());
-			jPCenter.add(itemPanel(habit, dailyHabit));
+			if (habit != null) {
+				jPCenter.add(itemPanel(habit, dailyHabit));
+			}
 		}
 
 		return jPCenter;

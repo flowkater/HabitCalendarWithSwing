@@ -84,6 +84,9 @@ public class DBConfig {
 		}
 	}
 
+	/*
+	 * 0000-00-00
+	 */
 	public void example() {
 		HabitDAO habitDAO = new HabitDAO();
 		DailyHabitDAO dailyHabitDAO = new DailyHabitDAO();

@@ -1,10 +1,10 @@
 package com.habit.model;
 
 public class DailyHabit {
-	int id;
-	int habitId;
-	int dayId;
-	int status; // 0 miss, 1 success
+	private int id;
+	private int habitId;
+	private int dayId;
+	private int status; // 0 miss, 1 success
 
 	public DailyHabit() {
 
@@ -13,11 +13,6 @@ public class DailyHabit {
 	public DailyHabit(int id) {
 		this.id = id;
 	}
-
-//	public DailyHabit(int id, int status) {
-//		this.id = id;
-//		this.status = status;
-//	}
 	
 	public DailyHabit(int dayId, int habitId) {
 		this.dayId = dayId;
